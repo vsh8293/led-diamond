@@ -1,0 +1,12 @@
+basic.forever(function () {
+    led.plot(2, 1)
+    led.plot(1, 2)
+    led.plot(2, 3)
+    led.plot(3, 2)
+    basic.pause(100)
+    led.unplot(2, 1)
+    led.unplot(1, 2)
+    led.unplot(2, 3)
+    led.unplot(3, 2)
+    basic.pause(100)
+})
